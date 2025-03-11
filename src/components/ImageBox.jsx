@@ -1,11 +1,11 @@
 import React from "react";
 
-const ImageBox = () => {
+const ImageBox = ({imageProps}) => {
   return (
     <div className="imgBx">
       <img
-        src="https://github.com/anuzbvbmaniac/Responsive-Product-Card---CSS-ONLY/blob/master/assets/img/jordan_proto.png?raw=true"
-        alt="Nike Jordan Proto-Lyte Image"
+        src= {imageProps.imageSrc}
+        alt= {imageProps.altImg}
       />
     </div>
   );

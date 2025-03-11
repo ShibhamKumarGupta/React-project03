@@ -2,7 +2,7 @@ import React from "react";
 
 const ColorOptions = ({ colorProps }) => {
   return (
-    <div>
+       <>
       <p className="product-colors">
         Available Colors:
         {colorProps.map((element, index) => (
@@ -15,7 +15,9 @@ const ColorOptions = ({ colorProps }) => {
           ></span>
         ))}
       </p>
-    </div>
+      <h3>Rs. 12,800</h3>
+      <button>Buy Now</button>
+      </>
   );
 };
 
